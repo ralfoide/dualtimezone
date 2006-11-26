@@ -307,8 +307,7 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 		private void RMainForm_Closing(object sender,
 			System.ComponentModel.CancelEventArgs e)
 		{
-			e.Cancel = true;
-			makeVisible(false);
+			// nop
 		}
 
 		//******************************************************************
@@ -322,6 +321,12 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 				MessageBox.Show(this, "Invalid Time Offset. " + ex.ToString(),
 					"Invalid Time Offset");
 			}
+		}
+
+		//******************************************************************
+		private void mButtonClose_Click(object sender, System.EventArgs e)
+		{
+			makeVisible(false);		
 		}
 
 		//******************************************************************
@@ -421,6 +426,7 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 			this.mButtonQuit = new System.Windows.Forms.Button();
 			this.mButtonAbout = new System.Windows.Forms.Button();
 			this.mLinkLabelAlfray = new System.Windows.Forms.LinkLabel();
+			this.mButtonClose = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// mNotifyIcon
@@ -650,6 +656,30 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 			this.mLinkLabelAlfray.Visible = ((bool)(resources.GetObject("mLinkLabelAlfray.Visible")));
 			this.mLinkLabelAlfray.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.mLinkLabelAlfray_LinkClicked);
 			// 
+			// mButtonClose
+			// 
+			this.mButtonClose.AccessibleDescription = resources.GetString("mButtonClose.AccessibleDescription");
+			this.mButtonClose.AccessibleName = resources.GetString("mButtonClose.AccessibleName");
+			this.mButtonClose.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("mButtonClose.Anchor")));
+			this.mButtonClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mButtonClose.BackgroundImage")));
+			this.mButtonClose.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("mButtonClose.Dock")));
+			this.mButtonClose.Enabled = ((bool)(resources.GetObject("mButtonClose.Enabled")));
+			this.mButtonClose.FlatStyle = ((System.Windows.Forms.FlatStyle)(resources.GetObject("mButtonClose.FlatStyle")));
+			this.mButtonClose.Font = ((System.Drawing.Font)(resources.GetObject("mButtonClose.Font")));
+			this.mButtonClose.Image = ((System.Drawing.Image)(resources.GetObject("mButtonClose.Image")));
+			this.mButtonClose.ImageAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("mButtonClose.ImageAlign")));
+			this.mButtonClose.ImageIndex = ((int)(resources.GetObject("mButtonClose.ImageIndex")));
+			this.mButtonClose.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("mButtonClose.ImeMode")));
+			this.mButtonClose.Location = ((System.Drawing.Point)(resources.GetObject("mButtonClose.Location")));
+			this.mButtonClose.Name = "mButtonClose";
+			this.mButtonClose.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("mButtonClose.RightToLeft")));
+			this.mButtonClose.Size = ((System.Drawing.Size)(resources.GetObject("mButtonClose.Size")));
+			this.mButtonClose.TabIndex = ((int)(resources.GetObject("mButtonClose.TabIndex")));
+			this.mButtonClose.Text = resources.GetString("mButtonClose.Text");
+			this.mButtonClose.TextAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("mButtonClose.TextAlign")));
+			this.mButtonClose.Visible = ((bool)(resources.GetObject("mButtonClose.Visible")));
+			this.mButtonClose.Click += new System.EventHandler(this.mButtonClose_Click);
+			// 
 			// RMainForm
 			// 
 			this.AcceptButton = this.mButtonApply;
@@ -661,6 +691,8 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 			this.AutoScrollMinSize = ((System.Drawing.Size)(resources.GetObject("$this.AutoScrollMinSize")));
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = ((System.Drawing.Size)(resources.GetObject("$this.ClientSize")));
+			this.ControlBox = false;
+			this.Controls.Add(this.mButtonClose);
 			this.Controls.Add(this.mLinkLabelAlfray);
 			this.Controls.Add(this.mButtonAbout);
 			this.Controls.Add(this.mButtonQuit);
@@ -670,13 +702,12 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 			this.Controls.Add(this.label1);
 			this.Enabled = ((bool)(resources.GetObject("$this.Enabled")));
 			this.Font = ((System.Drawing.Font)(resources.GetObject("$this.Font")));
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("$this.ImeMode")));
 			this.Location = ((System.Drawing.Point)(resources.GetObject("$this.Location")));
 			this.MaximizeBox = false;
 			this.MaximumSize = ((System.Drawing.Size)(resources.GetObject("$this.MaximumSize")));
-			this.MinimizeBox = false;
 			this.MinimumSize = ((System.Drawing.Size)(resources.GetObject("$this.MinimumSize")));
 			this.Name = "RMainForm";
 			this.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("$this.RightToLeft")));
@@ -720,9 +751,8 @@ namespace Alfray.DualTimeZone.DualTimeZoneApp
 		private System.Windows.Forms.Button mButtonAbout;
 		private System.Windows.Forms.MenuItem menuItem2;
 		private System.Windows.Forms.LinkLabel mLinkLabelAlfray;
+		private System.Windows.Forms.Button mButtonClose;
 		private System.Windows.Forms.Timer mTimer;
-
-
 
 
 	} // class RMainForm
