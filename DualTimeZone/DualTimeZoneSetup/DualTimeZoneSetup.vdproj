@@ -15,37 +15,37 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2F1BD454E0104CA7881F899CBEAC4B3C"
-        "OwnerKey" = "8:_5259F7F423EB489791922E5B5A429097"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2F1BD454E0104CA7881F899CBEAC4B3C"
-        "OwnerKey" = "8:_4B07C6EB739B86E11AFB752C99757CAB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2F1BD454E0104CA7881F899CBEAC4B3C"
-        "OwnerKey" = "8:_96F934C2EFDEE433B5EF8D63E1B3F89A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4B07C6EB739B86E11AFB752C99757CAB"
-        "OwnerKey" = "8:_5259F7F423EB489791922E5B5A429097"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5259F7F423EB489791922E5B5A429097"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_96F934C2EFDEE433B5EF8D63E1B3F89A"
+        "MsmKey" = "8:_96870508B5BB10E9C06174039BDAE376"
+        "OwnerKey" = "8:_5259F7F423EB489791922E5B5A429097"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A670F0B6874B43248898F8D15C0F3B58"
+        "OwnerKey" = "8:_5259F7F423EB489791922E5B5A429097"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A670F0B6874B43248898F8D15C0F3B58"
+        "OwnerKey" = "8:_DF92C16DF710441322F126D06434A0A5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A670F0B6874B43248898F8D15C0F3B58"
+        "OwnerKey" = "8:_96870508B5BB10E9C06174039BDAE376"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DF92C16DF710441322F126D06434A0A5"
         "OwnerKey" = "8:_5259F7F423EB489791922E5B5A429097"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -114,20 +114,20 @@
         }
         "File"
         {
-            "{FB480208-1853-44D0-9ABD-A3B734C3FAAA}:_4B07C6EB739B86E11AFB752C99757CAB"
+            "{FB480208-1853-44D0-9ABD-A3B734C3FAAA}:_96870508B5BB10E9C06174039BDAE376"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:LibUtils, Version=1.0.0.29676, Culture=neutral"
+            "AssemblyAsmDisplayName" = "8:DualTimeZoneLib, Version=1.0.0.28229, Culture=neutral"
                 "ScatterAssemblies"
                 {
-                    "_4B07C6EB739B86E11AFB752C99757CAB"
+                    "_96870508B5BB10E9C06174039BDAE376"
                     {
-                    "Name" = "8:LibUtils.dll"
+                    "Name" = "8:DualTimeZoneLib.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:LibUtils.dll"
+            "SourcePath" = "8:DualTimeZoneLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_22C80BB4D2CC4C7DA05FED7C77A76328"
@@ -145,20 +145,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{FB480208-1853-44D0-9ABD-A3B734C3FAAA}:_96F934C2EFDEE433B5EF8D63E1B3F89A"
+            "{FB480208-1853-44D0-9ABD-A3B734C3FAAA}:_DF92C16DF710441322F126D06434A0A5"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DualTimeZoneLib, Version=1.0.0.29676, Culture=neutral"
+            "AssemblyAsmDisplayName" = "8:LibUtils, Version=1.0.0.28229, Culture=neutral"
                 "ScatterAssemblies"
                 {
-                    "_96F934C2EFDEE433B5EF8D63E1B3F89A"
+                    "_DF92C16DF710441322F126D06434A0A5"
                     {
-                    "Name" = "8:DualTimeZoneLib.dll"
+                    "Name" = "8:LibUtils.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:DualTimeZoneLib.dll"
+            "SourcePath" = "8:LibUtils.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_22C80BB4D2CC4C7DA05FED7C77A76328"
@@ -243,7 +243,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DualTimeZone"
         "ProductCode" = "8:{0CB7E217-F77C-4C9D-AAB5-A6C94B639CBB}"
-        "PackageCode" = "8:{5BD82A40-5372-4F97-BBE8-ED9CFEA85B36}"
+        "PackageCode" = "8:{5C92D7D4-634C-41F7-925C-E3D8108FB696}"
         "UpgradeCode" = "8:{0D66226D-F707-4ABF-9C2E-9185B288C64D}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
@@ -253,10 +253,10 @@
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://www.alfray.com"
         "Title" = "8:Alfray's DualTimeZone"
-        "Subject" = "8:"
+        "Subject" = "8:Displays the hour of an alternate time zone in the deskbar"
         "ARPCONTACT" = "8:Alfray"
         "Keywords" = "8:alfray dual time zone"
-        "ARPCOMMENTS" = "8:Display the hour of an alternate time zone in the deskbar"
+        "ARPCOMMENTS" = "8:Displays the hour of an alternate time zone in the deskbar"
         "ARPURLINFOABOUT" = "8:http://www.alfray.com"
         "ARPPRODUCTICON" = "8:_5259F7F423EB489791922E5B5A429097"
         "ARPIconIndex" = "3:32512"
@@ -768,7 +768,7 @@
         }
         "MergeModule"
         {
-            "{35A69C6E-5BA4-440D-803D-762B59A45393}:_2F1BD454E0104CA7881F899CBEAC4B3C"
+            "{35A69C6E-5BA4-440D-803D-762B59A45393}:_A670F0B6874B43248898F8D15C0F3B58"
             {
             "UseDynamicProperties" = "11:TRUE"
             "IsDependency" = "11:TRUE"
