@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualTimeZoneApp", "DualTimeZoneApp\DualTimeZoneApp.csproj", "{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3C56D79-AC91-4369-8304-EC943BF5D904} = {D3C56D79-AC91-4369-8304-EC943BF5D904}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualTimeZoneLib", "DualTimeZoneLib\DualTimeZoneLib.csproj", "{D3C56D79-AC91-4369-8304-EC943BF5D904}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28} = {4B242339-F2D5-488E-97FD-C3F2CD8B4A28}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtils", "..\LibUtils\LibUtils\LibUtils.csproj", "{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DualTimeZoneSetup", "DualTimeZoneSetup\DualTimeZoneSetup.vdproj", "{5A5390D4-92DA-49EB-9CEC-BC527996A264}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.ActiveCfg = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.Build.0 = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.ActiveCfg = Release|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.Build.0 = Release|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug.ActiveCfg = Debug|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug.Build.0 = Debug|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release.ActiveCfg = Release|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release.Build.0 = Release|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.ActiveCfg = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.Build.0 = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.ActiveCfg = Release|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.Build.0 = Release|.NET
+		{5A5390D4-92DA-49EB-9CEC-BC527996A264}.Debug.ActiveCfg = Debug
+		{5A5390D4-92DA-49EB-9CEC-BC527996A264}.Release.ActiveCfg = Release
+		{5A5390D4-92DA-49EB-9CEC-BC527996A264}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
