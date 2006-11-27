@@ -104,41 +104,6 @@
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "Buffers\RBuffer.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Buffers\RIBuffer.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Buffers\RIReceiver.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Buffers\RISender.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Buffers\RSenderBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Misc\RAsyncLog.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Misc\RFreqCounter.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
                     RelPath = "Misc\RILog.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
@@ -149,17 +114,7 @@
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "Misc\RTraceTimer.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
                     RelPath = "Misc\RUtils.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Misc\RVoidLog.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
                 />
